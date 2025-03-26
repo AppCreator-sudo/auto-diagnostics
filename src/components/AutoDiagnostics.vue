@@ -85,10 +85,13 @@ header {
   background-color: rgba(255, 153, 0, 0.7);
   border: 2px solid #000000;
   color: #000000;
-  padding: 10px;
+  padding: 30px;
   border-radius: 18px;
   width: 100%;
-  max-width: 800px;
+}
+
+header h1 {
+  white-space: nowrap;
 }
 
 section {
