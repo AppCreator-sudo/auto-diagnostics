@@ -12,12 +12,8 @@ export default {
 };
 </script>
 <style>
-html, body {
-  background: url('src/assets/background.jpg') no-repeat center center fixed;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
+body {
+  background-color: rgba(189, 189, 189, 0.66);
+
 }
 </style>
