@@ -69,7 +69,7 @@
     <section class="contact">
       <h2>Контакты</h2>
       <p><strong>Адрес:</strong> г. Новосибирск, ул. Выставочная, 4</p>
-      <p><strong>Время работы:</strong> Пн-Вс с 9:00 до 18:00</p>
+      <p><strong>Время работы:</strong> Пн-Вс с 9:00 до 20:00</p>
       <p><strong>Без обеда и выходных</strong></p>
       <p><a :href="mapLink" target="_blank">Как проехать</a></p>
       <p>
