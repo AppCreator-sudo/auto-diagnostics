@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+      <section class="logo">
+        <img src="../assets/image1.png" alt="Логотип" />
+      </section>
     <header>
       <h1>Автодиагност-Н</h1>
       <h2>Сервис компьютерной диагностики ДВС и АКПП</h2>
@@ -19,8 +22,24 @@
       </p>
 
     </section>
-
-      <img src="../assets/XL1.jpg" class="image" alt="Диагностика ДВС" />
+    <section>
+      <div  class="onlineinfo">
+        <p><b>Обновление программного обеспечения и перепрограммирование блоков MERCEDES и BMW</b></p>
+        <img  src="../assets/1bmw.jpg" alt="bmw img" />
+        <img  src="../assets/merce.jpg" alt="mercedes img" />
+      </div>
+    </section>
+    <section class="image1">
+      <p><b>Использование профессионального оборудования диллерсокого уровня</b></p>
+      <img src="../assets/IMG20250427104651.jpg" class="image" alt="Диагностика ДВС" />
+      <img src="../assets/IMG20250427104955.jpg" class="image" alt="Диагностика ДВС" />
+      <img src="../assets/Screenshot_20250427-100351.png" class="image" alt="Диагностика ДВС" />
+      <img src="../assets/Screenshot_20250427-100405.png" class="image" alt="Диагностика ДВС" />
+      <img src="../assets/Screenshot_20250427-100419.png" class="image" alt="Диагностика ДВС" />
+      <img src="../assets/Screenshot_20250427-100429.png" class="image" alt="Диагностика ДВС" />
+      <img src="../assets/Screenshot_20250427-100436.png" class="image" alt="Диагностика ДВС" />
+      <img src="../assets/Screenshot_20250427-100442.png" class="image" alt="Диагностика ДВС" />
+    </section>
 
     <section class="info">
       <h2>Диагностика АКПП</h2>
@@ -35,7 +54,6 @@
 
     </section>
 
-    <img src="../assets/XL.jpg" class="image" alt="Диагностика ДВС" />
 
     <section class="info">
       <h2>Диагностика электронных систем</h2>
@@ -102,17 +120,113 @@ export default {
 </script>
 
 <style scoped>
-.image {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+
+  width: 100%;
+}
+
+.onlineinfo {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+}
+.onlineinfo img {
+  background-color: white;
   border-radius: 22px;
   display: block;
+  max-width: 48%;  /* Масштабирование изображения на основе ширины контейнера */
+  height: auto;     /* Сохранение пропорций */
+  margin: 0 auto;   /* Центрирование изображения */
+}
+.logo {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+}
 
-  max-width: 100%;
+.logo img {
+  background-color: white;
+  border-radius: 22px;
+  display: block;
+  max-width: 100%;  /* Масштабирование изображения на основе ширины контейнера */
+  height: auto;     /* Сохранение пропорций */
+  margin: 0 auto;   /* Центрирование изображения */
+}
+.image1 {
+  border-radius: 22px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+}
+
+.image {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 22px;
+  display: block;
+  width: 48%;
   height: auto;
 }
+
+@media (max-width: 500px) {
+  /* Обеспечиваем, что изображения не выходят за пределы экрана */
+  .image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .onlineinfo img {
+    display: block;
+    max-width: 100%;  /* Масштабирование изображения на основе ширины контейнера */
+    height: auto;     /* Сохранение пропорций */
+    margin: 0 auto;   /* Центрирование изображения */
+  }
+  .container {
+    padding: 15px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+  }
+  /* Для мобильных устройств обеспечиваем, что контейнеры не вылазят за экран */
+  header, section {
+    padding: 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .logo img {
+    width: 80%; /* Масштабирование логотипа на мобильных устройствах, например, 80% от ширины экрана */
+  }
+}
+
 .whatsapp-link {
-  color: #25D366; /* Зеленый цвет WhatsApp */
+  color: #25D366;
   font-size: 16px;
   text-decoration: none;
   display: inline-flex;
@@ -120,21 +234,24 @@ export default {
 }
 
 .whatsapp-link svg {
-  margin-right: 8px; /* Отступ между иконкой и текстом */
+  margin-right: 8px;
 }
-
 
 .container {
   font-size: 19px;
-  font-family: "Tahoma", sans-serif; /* Компактный и аккуратный */
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translate(-50%);
+  font-family: "Tahoma", sans-serif;
+  margin: 20px auto 0 auto;
+  width: 100%;
+  max-width: 1000px; /* Убираем фиксированную ширину */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
-  background-color: rgba(249, 249, 249, 0.66);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  margin-top: 20px;
   padding: 30px;
   border-radius: 22px;
   width: 100%;
@@ -144,15 +261,17 @@ header h1 {
   text-align: center;
   white-space: nowrap;
 }
+header h2 {
+  text-align: center;
+}
 
 section {
   margin-top: 20px;
   padding: 15px;
   border-radius: 22px;
   width: 100%;
-  max-width: 800px;
-  background-color: rgba(249, 249, 249, 0.8);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .contact a {
@@ -160,7 +279,11 @@ section {
   text-decoration: none;
   font-weight: bold;
 }
+
 b {
   font-weight: bold;
 }
+
 </style>
+
+
