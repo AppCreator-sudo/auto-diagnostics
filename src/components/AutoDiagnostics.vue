@@ -25,6 +25,7 @@
     <section>
       <div  class="onlineinfo">
         <p><b>Обновление программного обеспечения и перепрограммирование блоков MERCEDES и BMW</b></p>
+        Покрытие 80+ автомобильных брендов Американского, Европейскиго, Азиатского и Китайского рынка
         <img  src="../assets/1bmw.jpg" alt="bmw img" />
         <img  src="../assets/merce.jpg" alt="mercedes img" />
       </div>
@@ -33,8 +34,6 @@
       <p><b>Использование профессионального оборудования диллерсокого уровня</b></p>
       <img src="../assets/IMG20250427104651.jpg" class="image" alt="Диагностика ДВС" />
       <img src="../assets/IMG20250427104955.jpg" class="image" alt="Диагностика ДВС" />
-      <img src="../assets/Screenshot_20250427-100351.png" class="image" alt="Диагностика ДВС" />
-      <img src="../assets/Screenshot_20250427-100405.png" class="image" alt="Диагностика ДВС" />
       <img src="../assets/Screenshot_20250427-100419.png" class="image" alt="Диагностика ДВС" />
       <img src="../assets/Screenshot_20250427-100429.png" class="image" alt="Диагностика ДВС" />
       <img src="../assets/Screenshot_20250427-100436.png" class="image" alt="Диагностика ДВС" />
