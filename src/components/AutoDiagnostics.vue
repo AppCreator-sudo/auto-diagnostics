@@ -80,7 +80,7 @@
 
     <section class="services">
       <h2>Стоимость услуг</h2>
-      <h2>800 руб.</h2>
+      <h2>от 800 руб.</h2>
     </section>
 
     <section class="contact">
@@ -88,7 +88,7 @@
       <p><strong>Адрес:</strong> г. Новосибирск, ул. Выставочная, 4</p>
       <p><strong>Время работы:</strong> Пн-Вс с 9:00 до 20:00</p>
       <p><strong>Без обеда и выходных</strong></p>
-      <p><a :href="mapLink" target="_blank">Как проехать</a></p>
+      <p><a :href="mapLink" target="_blank">Как проехать? (Яндекс карты)</a></p>
       <p>
         <a href="tel:+79139561544" target="_blank" class="whatsapp-link">
           <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
