@@ -80,7 +80,7 @@
 
     <section class="services">
       <h2>Стоимость услуг</h2>
-      <h2>от 800 руб.</h2>
+      <h2>от 1000 руб.</h2>
     </section>
 
     <section class="contact">
