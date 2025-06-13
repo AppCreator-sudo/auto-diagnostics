@@ -38,6 +38,8 @@
       <img src="../assets/Screenshot_20250427-100429.png" class="image" alt="Диагностика ДВС" />
       <img src="../assets/Screenshot_20250427-100436.png" class="image" alt="Диагностика ДВС" />
       <img src="../assets/Screenshot_20250427-100442.png" class="image" alt="Диагностика ДВС" />
+      <img src="../assets/t130.jpg" class="image" alt="Диагностика ДВС" />
+      <img src="../assets/XXL_height.jpg" class="image" alt="Диагностика ДВС" />
     </section>
 
     <section class="info">
@@ -76,6 +78,10 @@
       <p>Отображение текущих параметров системы.</p>
       <p>Проверка исполнительных механизмов.</p>
       <p>Чтение, расшифровка и удаление кодов неисправностей систем автомобиля.</p>
+      <p>Услуги даигностики дымогенератором.</p>
+      <p>Замер компрессии в цилиндрах бензиновых ДВС.</p>
+      <p>Чистка дроссельной заслонки с адаптацией.</p>
+      <p>Чистка датчика ДМРВ.</p>
     </section>
 
     <section class="services">
