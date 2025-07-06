@@ -4,7 +4,7 @@
         <img src="../assets/image1.png" alt="Логотип" />
       </section>
     <header>
-      <h2>Автодиагност-Н</h2>
+      <h1>Автодиагност-Н</h1>
       <h2>Сервис компьютерной диагностики ДВС и АКПП</h2>
     </header>
 
@@ -260,9 +260,11 @@ header {
   padding: 30px;
   border-radius: 22px;
   width: 100%;
+  text-align: center;
 }
 
 header h1 {
+  font-size: 32px;
   text-align: center;
   white-space: nowrap;
 }
